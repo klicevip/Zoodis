@@ -1,5 +1,5 @@
 # Zoodis
-c# client for Codis based on [Stackexchange.Redis](https://github.com/StackExchange/StackExchange.Redis) and [Zookeeper](https://github.com/shayhatsor/zookeeper)
+c# client for [Codis](https://github.com/CodisLabs/codis) based on [Stackexchange.Redis](https://github.com/StackExchange/StackExchange.Redis) and [Zookeeper](https://github.com/shayhatsor/zookeeper)
 ## Features
 Use a round robin policy to balance load to multiple codis proxies.
 
@@ -23,3 +23,4 @@ Detect proxy online and offline automatically.
 
 ## Reference
 [Jodis](https://github.com/CodisLabs/jodis) is a java client
+[Codis](https://github.com/CodisLabs/codis) is a nice solution for redis cluster
